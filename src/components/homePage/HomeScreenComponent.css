@@ -1,0 +1,48 @@
+.headerName {
+  color: #293651;
+}
+
+.text-center {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+}
+
+.typewriter {
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 200;
+  color: #1fa78f;
+  margin-bottom: 0;
+}
+
+.goals {
+  text-align: justify;
+  margin: 10px;
+  color: gray;
+}
+a.download {
+  border: 1px solid #1fa78f;
+  background: #1fa78f;
+  display: block;
+  border-radius: 4px;
+  height: auto;
+  padding: 5px;
+  color: white;
+  margin-top: 15px;
+}
+
+a.contact {
+  border: 1px solid #646f87;
+  background: #646f87;
+  display: block;
+  border-radius: 4px;
+  height: auto;
+  padding: 5px;
+  color: white;
+  margin-top: 15px;
+}

@@ -1,0 +1,54 @@
+.headerName {
+  font-size: 5rem;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Anonymous Pro";
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter span {
+  color: gray;
+  font-family: monospace;
+  font-size: 20px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 4.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}

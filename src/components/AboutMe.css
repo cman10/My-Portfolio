@@ -1,0 +1,7 @@
+div h1 {
+  padding: 10px 25px;
+}
+
+div > p {
+  padding: 0px 25px;
+}

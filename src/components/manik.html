@@ -1,0 +1,60 @@
+<body>
+<div id="container">
+    <div class="image image1">
+    <img src="https://lh3.googleusercontent.com/a-/AOh14GjFPgIzXUZC42YtlXJjryC-T-HGt7LWcR-efJ41SIQ=s160-p-k-no-mo">
+    </div>
+</div>
+<div id="bottomBar" onclick="alert('The bar!')">
+
+    <diV id="leftPara" onclick="event.stopPropagation()">
+    <p onclick="alert('The p!')" >Meeting Details</p>
+    </diV>
+
+    <div id="callIcons">
+
+    </div>
+</div>
+</body>
+<style>
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        height: 100%;
+    }
+    #leftPara{
+        display: table-cell;
+    }
+    img {
+    border-radius: 50%;
+}
+
+    body{
+        background:black;
+        margin: 0;
+    }
+    #bottomBar{
+        background:white;
+        width:100%;
+        height: 10%;
+        position: fixed;
+        bottom: 0;
+        display: flex
+    }
+    #leftPara {
+    flex-direction: row;
+    margin: 20px;
+    font-size:20px;
+    font-family: sans-serif;
+}
+
+</style>
+<script>
+    var num="370"
+var split= num.split("");
+var arr,sum=0;
+ arr= split.map(item=>item*item*item);
+const add = arr => arr.reduce((a) => a + a) ;
+var summ=add(arr);
+console.log(summ)
+</script>

@@ -1,0 +1,14 @@
+.nav-link {
+  color: #fafafa !important;
+}
+
+nav.navbar.navbar-expand-sm.navbar-light.bg-success {
+  background-color: #1fa78f !important;
+}
+
+.aa {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+}
