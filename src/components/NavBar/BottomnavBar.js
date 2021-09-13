@@ -5,7 +5,14 @@ import "./NewBar.css";
 const BottomNavBar = () => {
   return (
     <div>
-      <Navbar expand="lg" variant="dark" bg="light" fixed="bottom">
+      <Navbar
+        expand="lg"
+        variant="dark"
+        bg="light"
+        fixed="bottom"
+        id="switch"
+        className="hidden"
+      >
         <Container>
           <Navbar.Brand>
             <a class="navbar-brand" href="/Home">

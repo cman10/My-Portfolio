@@ -4,6 +4,9 @@
 
 nav.navbar.navbar-expand-sm.navbar-light.bg-success {
   background-color: #1fa78f !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 
 .aa {
@@ -11,4 +14,14 @@ nav.navbar.navbar-expand-sm.navbar-light.bg-success {
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
   position: absolute;
+}
+
+.navHome {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.others {
+  display: flex;
 }
